@@ -1,6 +1,6 @@
 class Solution:
     @staticmethod
-    def longestPalindrome(s: str) -> str:
+    def longest_palindromic(s: str) -> str:
         m = ''  # Memory to remember a palindrome
         for i in range(len(s)):  # i = start, O = n
             for j in range(len(s), i, -1):  # j = end, O = n^2
